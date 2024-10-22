@@ -8,7 +8,7 @@ import modulus.sym
 from modulus.sym.hydra import to_absolute_path, instantiate_arch, ModulusConfig
 from modulus.sym.solver import Solver
 from modulus.sym.domain import Domain
-
+from BioReactor import BioReactor
 
 # from modulus.sym.domain.validator import PointwiseValidator
 from modulus.sym.domain.inferencer import PointwiseInferencer
