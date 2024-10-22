@@ -29,7 +29,7 @@ from modulus.sym.domain.constraint import (
 @modulus.sym.main(config_path="conf", config_name="config")
 def run(cfg: ModulusConfig) -> None:
   # make list of nodes to unroll graph on
-  ns = NavierStokes(nu=0.01, rho=1.0, dim=2, time=False)
+  br = Bioreactor()
   flow_net = instantiate_arch(
         input_keys=[Key("z"), Key("r"), Key("t")],
         output_keys=[Key("v_z")],
