@@ -1,3 +1,11 @@
+import os
+import warnings
+import torch
+import numpy as np
+import matplotlib.pyplot as plt
+from sympy import Symbol, Eq, Abs, Function, Number, Piecewise, exp, pi, cos
+from modulus.sym.eq.pde import PDE
+
 class Bioreactor(PDE):
     """
 
