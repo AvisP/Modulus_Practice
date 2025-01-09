@@ -1,7 +1,7 @@
 # Modulus_Practice
 Repo for replicating the modulus examples as shown [here](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/foundational/1d_wave_equation.html). ALl the examples can be run by installing `modulus` packagae `nvidia-modulus.sym` package. 
 ```
-pip install 
+pip install nvidia-modulus
 pip install "pint==0.19.2"
 pip install nvidia-modulus.sym --no-build-isolation
 ```
