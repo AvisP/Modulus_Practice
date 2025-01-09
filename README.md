@@ -23,3 +23,6 @@ This is based on the Lid Driven Caity [example](https://docs.nvidia.com/deeplear
 
 ### Example 4
 This is based on the 2D heat equation [example](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/foundational/scalar_transport.html)
+
+### Bioreactor (Work in Progress)
+Implementation of a Physics Informed Neural network of a simplified Bio Reactor Model 
